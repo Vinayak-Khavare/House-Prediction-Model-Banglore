@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>House Prediction</title>
+    <link rel="stylesheet" href="app.css">
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+</head>
+<body>
+    <main>
+        <div class="container">
+
+            <h1>Banglore House Prediction</h1>
+            <h2>Enter the details to predict the price of the house</h2>
+            <form class="form">
+
+                <div class="area">
+                    <h2>Area(sqft)</h2>
+                    <input type="text" class="floatlabel" id="uiArea" value="1000" name="sqft">
+                </div>
+
+                <div class="bath-bhk">
+                    <h2>BHK</h2>
+                    <select name="" id="uibhk">
+                        <option value="1">1</option>
+                        <option value="2" selected="selected">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                    </select>
+
+                    <h2>Bath</h2>
+                    <select name="" id="uibath">
+                        <option value="1">1</option>
+                        <option value="2" selected="selected">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                    </select>
+                </div>
+
+                <div class="location">
+                <h2>Location</h2>
+                <select name="" id="uiLocations">
+                    <option value="" disabled="disabled" selected="selected">Choose a Location</option>
+                    <option>Electronic City</option>
+                    <option>Rajaji Nagar</option>
+                </select>
+                </div>
+            </form>
+
+            <button class="btn" id="uiPredict">Predict</button>
+            <div id="uiEstimatedPrice" class="result">	<h2></h2> </div>
+        </div>
+    </main> 
+    <script src="app.js"></script>   
+</body>
+</html>

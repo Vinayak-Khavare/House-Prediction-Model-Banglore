@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    margin: 1rem;
+    font-size: 3rem;
+    font-weight: 800;
+    color: #14213d;
+}
+
+h2 {
+    color: #264653;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #e9c46a;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1.5rem;
+    background-color: #2a9d8f;
+    border: 2px solid #264653;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.area {
+    display: flex;
+    gap: 1rem;
+    margin: 1rem;
+}
+
+.area input {
+    padding: 0.5rem;
+    border: 1px solid #264653;
+    border-radius: 5px;
+    font-weight: 300;
+}
+
+
+.bath-bhk {
+    display: flex;
+    gap: 1rem;
+    margin: 1rem;
+}
+
+select {
+    border: 1px solid #264653;
+    border-radius: 5px;
+    font-weight: 300;
+    text-align: center;
+    min-width: 4rem;
+}
+
+.location {
+    display: flex;
+    gap: 1rem;
+    margin: 1rem;
+}
+
+.btn {
+    padding: 0.5rem 1rem;
+    border: 2px solid #264653;
+    border-radius: 5px;
+    background-color: #e76f51;
+    color: black;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #f4a261;
+}
