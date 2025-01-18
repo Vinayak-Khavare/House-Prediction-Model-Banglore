@@ -13,7 +13,7 @@ This is a web-based application designed to predict house prices in Bangalore us
 ## Video Demo
 
 <video width="320" height="240" controls>
-  <source src="Vinayak-Khavare-House-Prediction-Model-Banglore.mp4" type="video/mp4">
+  <source src="./Vinayak-Khavare-House-Prediction-Model-Banglore.mp4" type="video/mp4">
 </video>
 
 ## How It Works
